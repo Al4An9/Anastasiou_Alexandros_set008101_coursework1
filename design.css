@@ -1,0 +1,131 @@
+.container {
+	width: 100%; 
+	border: 2px solid #000000;
+}
+
+header, footer {
+	padding: 1em;
+	color: white; 
+	background-color: black; 
+	clear: left;
+	text-align: center;
+	font-style: italic;
+}
+
+.image {
+    top: 50%;
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 8s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #808080;
+	line-height: 50px;
+	height: 59px;
+	border: 1px solid #000000;
+}
+.active{
+background-color: #C0C0C0;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #000000;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 5px 50px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #C0C0C0;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #808080;
+    min-width: 237px;
+    z-index: 1;
+	border: 1px solid #000000;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+	border: 1px solid #000000;
+}
+
+.dropdown-content a:hover {
+	background-color: #000000;
+	}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+aside {
+	height: 550px;
+	background-color: #C0C0C0;
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
+button {
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border: 2px solid #555555;
+}
+button:hover {
+	background-color: #555555;
+	color: white;
+}
+
+#text{
+	text-align: left;
+	font-family: sans-serif;
+}
+
+
+h2{
+	text-align: left;
+	font-style: bold;
+}
+
+#Originalmessage {
+	height: 15em;
+	width: 50em;
+	margin: 5px;
+}
+
+#Encipheredmessage {
+	height: 15em;
+	width: 50em;
+	margin: 5px;
+}
+
+

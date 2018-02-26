@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<link rel="stylesheet" href="design.html" type = "text/css"/>
-	<title> Cipher Rot13 </title>
+	<link rel="stylesheet" href="design.css" type = "text/css"/>
+	<title>Cipher Rot13</title>
 	</head>
 	
 	<body>
@@ -10,23 +10,39 @@
 	<div class="container">
 	
 	<header>
-		<h1> Message Encryption Tool </h1>
-		<h3> Rot13 cipher </h3>
+		<h1>Message Encryption & Decryption Tool</h1>
+		<h3><a href="AboutCiphers.html">Cipher Rot13</h3>
+		<a href="http://www.secretcodebreaker.com/history2.html"><img class="image "src="cipherdisk.gif"></a>
 	</header>
 	
-	<form action="/action_page.php">
+	<ul class="navbar">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="AboutCiphers.html">About Ciphers</a></li>
+		<li class="dropdown">
+			<a class="active" href="#" class="dropbtn">Encrypt Message</a>
+			<div class="dropdown-content">
+				<a href="cipherRot13.html" >Rot13</a>
+				<a href="#" >Ceasar</a>
+				<a href="#" >Whatever</a>
+			</div>
+			</li>
+		<li><a href="#home">Decrypt Message</a></li>
+	</ul>
+	
+	<aside>
 	<br>
 	<strong>Enter your message to encipher:</strong>
 	<br>
-	<textarea class="Originalmessage"> </textarea><br>
-	<input type="submit">
+	<textarea id="Originalmessage" required></textarea><br>
+	<button type="button" onclick="encode()" id="encode_button">Encode</button>
 	<br><br>
 	<strong>Enciphered message:</strong>
 	<br>
-	<textarea class="Encipheredmessage" disabled> </textarea><br>
-	</form>
-
-	<footer> Website was created by Alexandros Anastasiou </footer>
+	<textarea id="Encipheredmessage" disabled></textarea><br>
+	</aside>
+	
+	<script type="text/javascript" src="rot13.js"></script>
+	<footer>Website was created by Alexandros Anastasiou</footer>
 	
 	</div>
 	</body>
