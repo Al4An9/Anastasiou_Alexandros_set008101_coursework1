@@ -1,0 +1,53 @@
+
+<nav>
+		<p id="par"><strong>Please select which cipher you prefer to encode your message:</strong></p>
+		
+		<ul>
+			<li><a href="cipherRot1.html">Rot1</a></li>
+			<li><a href="cipherRot2.html">Rot2</a></li>
+			<li><a href="cipherRot3.html">Rot3</a></li>
+			<li><a href="cipherRot4.html">Rot4</a></li>
+			<li><a href="cipherRot5.html">Rot5</a></li>
+			<li><a href="cipherRot6.html">Rot6</a></li>
+			<li><a href="cipherRot7.html">Rot7</a></li>
+			<li><a href="cipherRot8.html">Rot8</a></li>
+			<li><a href="cipherRot9.html">Rot9</a></li>
+			<li><a href="cipherRot10.html">Rot10</a></li>
+			<li><a href="cipherRot11.html">Rot11</a></li>
+			<li><a href="cipherRot12.html">Rot12</a></li>
+			<li><a href="cipherRot13.html">Rot13</a></li>
+			<li><a href="cipherRot14.html">Rot14</a></li>
+			<li><a href="cipherRot15.html">Rot15</a></li>
+			<li><a href="cipherRot16.html">Rot16</a></li>
+			<li><a href="cipherRot17.html">Rot17</a></li>
+			<li><a href="cipherRot18.html">Rot18</a></li>
+			<li><a href="cipherRot19.html">Rot19</a></li>
+			<li><a href="cipherRot20.html">Rot20</a></li>
+			<li><a href="cipherRot21.html">Rot21</a></li>
+			<li><a href="cipherRot22.html">Rot22</a></li>
+			<li><a href="cipherRot23.html">Rot23</a></li>
+			<li><a href="cipherRot24.html">Rot24</a></li>
+			<li><a href="cipherRot25.html">Rot25</a></li>
+		</ul>
+	</nav>
+	
+		/*var numbers = ['1','2','3','4','5','6','7','8','9','0'];
+
+	var input_text_toUpperCase = document.getElementById("Originalmessage").value.toUpperCase();
+	document.write(input_text.toUpperCase());
+
+	var tupc = output_cyphered_text.toUpperCase();
+	document.getElementById("Originalmessage").innerHTML = tupc;
+			if(input_text == input.toLowerCase())
+		{
+			//search the array for the specified item and returns its position (if 'a' then its the character on position '1')
+			input = alphabetLowerCase.indexOf(input_text[i]);
+		}
+		else if(input_text == input_text.toUpperCase())
+		{
+			input = alphabetUpperCase.indexOf(input_text[i]);
+		}
+	*/
+	
+	
+	

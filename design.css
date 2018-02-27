@@ -25,6 +25,15 @@ header, footer {
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+.image2 {
+	top: 50%;
+    left: 50%;
+    width: 280px;
+    height: 220px;
+	margin-left: 30em;
+	border: 2px solid #000000;
+}
+
 .navbar {
 	list-style-type: none;
 	margin: 0;
@@ -86,13 +95,20 @@ li.dropdown {
     display: block;
 }
 
-
 aside {
 	height: 550px;
 	background-color: #C0C0C0;
 	border: 1px solid #000000;
 	padding: 5px;
 }
+
+.AboutCiphersAside {
+	height: 900px;
+	background-color: #C0C0C0;
+	border: 1px solid #000000;
+	padding: 5px;
+}
+
 
 button {
 	background-color: white;
@@ -127,5 +143,6 @@ h2{
 	width: 50em;
 	margin: 5px;
 }
+
 
 

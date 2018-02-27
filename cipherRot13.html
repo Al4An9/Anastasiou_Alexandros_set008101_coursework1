@@ -34,14 +34,19 @@
 	<strong>Enter your message to encipher:</strong>
 	<br>
 	<textarea id="Originalmessage" required></textarea><br>
-	<button type="button" onclick="encode()" id="encode_button">Encode</button>
+	<button type="button" onClick="encode()" id="encode_button">Encipher</button>
+	<button type="button" onClick="encode()" id="encode_button">Decipher</button>
+	<button type="button" onClick="clearText()" id="clear_button">Clear</button>
+	<button type="button" onClick="replacetext()" id="replace_button" class="arrow">&#x2191; Replace</button>
 	<br><br>
 	<strong>Enciphered message:</strong>
 	<br>
-	<textarea id="Encipheredmessage" disabled></textarea><br>
+	<textarea id="Encipheredmessage" disabled ></textarea><br>
 	</aside>
 	
 	<script type="text/javascript" src="rot13.js"></script>
+	<script type="text/javascript" src="clearButton.js"></script>
+	<script type="text/javascript" src="replaceText.js"></script>
 	<footer>Website was created by Alexandros Anastasiou</footer>
 	
 	</div>
