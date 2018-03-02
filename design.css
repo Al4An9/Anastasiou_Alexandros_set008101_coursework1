@@ -4,12 +4,13 @@
 }
 
 header, footer {
-	padding: 1em;
+	padding: 0.5em;
 	color: white; 
 	background-color: black; 
 	clear: left;
 	text-align: center;
 	font-style: italic;
+	font-family: Georgia Header;
 }
 
 .image {
@@ -17,8 +18,8 @@ header, footer {
     left: 50%;
     width: 160px;
     height: 160px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
+    webkit-animation:spin 4s linear infinite;
+    moz-animation:spin 4s linear infinite;
     animation:spin 8s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
@@ -26,14 +27,26 @@ header, footer {
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .image2 {
-	top: 50%;
-    left: 50%;
-    width: 280px;
-    height: 220px;
+    width: 365px;
+    height: 230px;
 	margin-left: 30em;
 	border: 2px solid #000000;
 }
 
+.image1:hover {
+	webkit-transform: scale(1.2);
+    ms-transform: scale(1.2);
+    transform: scale(1.2);
+	margin-left:10em;
+	border: 2px solid #000000;
+}
+
+.image3 {
+    width: 365px;
+    height: 360px;
+	margin-left: 30em;
+	border: 2px solid #000000;
+}
 .navbar {
 	list-style-type: none;
 	margin: 0;
@@ -103,7 +116,7 @@ aside {
 }
 
 .AboutCiphersAside {
-	height: 900px;
+	height: 1800px;
 	background-color: #C0C0C0;
 	border: 1px solid #000000;
 	padding: 5px;
@@ -129,6 +142,7 @@ button:hover {
 h2{
 	text-align: left;
 	font-style: bold;
+	font-family: Georgia Header;
 }
 
 #OriginalMessage {
