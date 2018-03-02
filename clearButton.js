@@ -1,5 +1,4 @@
 function clearText() {
-	console.log('---');
-	document.getElementById("Originalmessage").value = "";
-	document.getElementById("Encipheredmessage").innerHTML = "";
+	document.getElementById("OriginalMessage").value = "";
+	document.getElementById("EncipheredMessage").innerHTML = "";
 }

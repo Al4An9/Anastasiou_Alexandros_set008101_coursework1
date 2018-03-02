@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="Design.css" type = "text/css"/>
-		<title>Cipher Rot13</title>
+		<title>Caesar cipher</title>
 	</head>
 	
 	<body>
@@ -10,7 +10,7 @@
 	
 		<header>
 			<h1>Message Encryption & Decryption Tool</h1>
-			<h3><a href="AboutCiphers.html" target="_blank">Cipher Rot13</h3>
+			<h3><a href="AboutCiphers.html" target="_blank">Caesar cipher</h3>
 			<a href="http://www.secretcodebreaker.com/history2.html" target="_blank"><img class="image "src="cipherdisk.gif"></a>
 		</header>
 	
@@ -20,21 +20,22 @@
 			<li class="dropdown">
 				<a class="active" class="dropbtn">Encrypt/Decrypt Message</a>
 				<div class="dropdown-content">
-					<a href="CipherRot13.html" >Rot13</a>
-					<a href="CaesarCipher.html">Ceasar</a>
+					<a href="CipherRot13.html" >Rot13 Cipher</a>
+					<a href="CaesarCipher.html">Caesar Cipher</a>
 					<a href="#">Whatever</a>
 				</div>
 				</li>
 		</ul>
 	
 		<aside>
-			<br>
 			<strong>Input Text Area:</strong>
+			<br>
+			<strong>Number of letters to shift to the left(default is 3):</strong><input type="number" min="1"max="25" value="3" id="RotationNumber">
 			<br>
 			<textarea id="OriginalMessage" autofocus placeholder="Enter your text here to encipher or decipher..."></textarea><br>
 			<button type="button" onClick="encode()" id="encode_button">Encipher</button>
 			<button type="button" onClick="replacetext()" id="replace_button" class="arrow">&#x2191; Replace</button>
-			<button type="button" onClick="encode()" id="encode_button">Decipher</button>
+			<button type="button" onClick="decode()" id="encode_button">Decipher</button>
 			<button type="button" onClick="clearText()" id="clear_button">Clear</button>
 			<br><br>
 			<strong>Output Text Area:</strong>
@@ -42,10 +43,11 @@
 			<textarea id="EncipheredMessage" disabled ></textarea><br>
 		</aside>
 	
-		<script type="text/javascript" src="Rot13.js"></script>
+		<script type="text/javascript" src="CaesarCipher.js"></script>
+		<script type="text/javascript" src="CaesarDecipher.js"></script>
 		<script type="text/javascript" src="ClearButton.js"></script>
 		<script type="text/javascript" src="ReplaceText.js"></script>
-	
+		
 		<footer>2018 - Website was created by Alexandros Anastasiou</footer>
 	</div>
 	</body>

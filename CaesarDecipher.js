@@ -1,7 +1,11 @@
-function encode()
+function decode()
 {
+	//get the number of letters you want to rotate 
+	var input_number_rotation = parseInt(document.getElementById("RotationNumber").value);
 	//gets the value of the elements within OriginalMessage and stores them to input_text
-	var input_text = document.getElementById("OriginalMessage").value;
+	var input_text = document.getElementById("OriginalMessage").value.toUpperCase();
+	//convert the input to uppercase
+	var upperCase_input = input_text.toUpperCase();
 	//empty array for the output
 	var output_ciphered_text = [];
 	
@@ -27,7 +31,7 @@ function encode()
 			else
 			{
 				//(1+13)/26 = 14  
-				var coded = (input + 13)%26;
+				var coded = (input + input_number_rotation)%26;
 				//encode input character at position '1' with letter at position '14' from the alphabetLowerCase
 				var letter = alphabet[coded];
 				//push letter that is positioned '14' in the alphabet at the end of the empty array output_ciphered_text
@@ -38,3 +42,4 @@ function encode()
 		document.getElementById("EncipheredMessage").innerHTML = output_ciphered_text.join("");
 	}
 }
+	

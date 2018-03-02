@@ -73,7 +73,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #808080;
-    min-width: 237px;
+    min-width: 306px;
     z-index: 1;
 	border: 1px solid #000000;
 }
@@ -96,7 +96,7 @@ li.dropdown {
 }
 
 aside {
-	height: 550px;
+	height: 560px;
 	background-color: #C0C0C0;
 	border: 1px solid #000000;
 	padding: 5px;
@@ -108,7 +108,6 @@ aside {
 	border: 1px solid #000000;
 	padding: 5px;
 }
-
 
 button {
 	background-color: white;
@@ -132,13 +131,13 @@ h2{
 	font-style: bold;
 }
 
-#Originalmessage {
+#OriginalMessage {
 	height: 15em;
 	width: 50em;
 	margin: 5px;
 }
 
-#Encipheredmessage {
+#EncipheredMessage {
 	height: 15em;
 	width: 50em;
 	margin: 5px;
