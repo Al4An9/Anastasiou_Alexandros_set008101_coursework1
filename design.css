@@ -26,10 +26,10 @@ header, footer {
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-.image2 {
-    width: 365px;
-    height: 230px;
-	margin-left: 30em;
+.image1 {
+	width: 650px;
+	height: 230px;
+	margin-left:50px;
 	border: 2px solid #000000;
 }
 
@@ -41,12 +41,20 @@ header, footer {
 	border: 2px solid #000000;
 }
 
+.image2 {
+    width: 365px;
+    height: 230px;
+	margin-left: 30em;
+	border: 2px solid #000000;
+}
+
 .image3 {
     width: 365px;
     height: 360px;
 	margin-left: 30em;
 	border: 2px solid #000000;
 }
+
 .navbar {
 	list-style-type: none;
 	margin: 0;
@@ -111,6 +119,12 @@ li.dropdown {
 aside {
 	height: 560px;
 	background-color: #C0C0C0;
+	border: 0.5px solid #000000;
+	padding: 5px;
+}
+.homeaside {
+	height: 850px;
+	background-color: #C0C0C0;
 	border: 1px solid #000000;
 	padding: 5px;
 }
@@ -136,6 +150,8 @@ button:hover {
 #text{
 	text-align: left;
 	font-family: sans-serif;
+	line-height: 1,5;
+	letter-spacing: 1px;
 }
 
 
@@ -155,6 +171,20 @@ h2{
 	height: 15em;
 	width: 50em;
 	margin: 5px;
+}
+input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #000000; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#subject {
+	 height:130px;
 }
 
 

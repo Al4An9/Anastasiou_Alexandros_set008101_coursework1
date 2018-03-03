@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Design.css" type = "text/css"/>
+		<title>MessageEncryption & DecryptionTool</title>
+	</head>
+	
+	<body>
+	<div class="container">
+	
+		<header>
+			<h1>Message Encryption & Decryption Tool</h1>
+			<a href="http://www.secretcodebreaker.com/history2.html" target="_blank"><img class="image"src="cipherdisk.gif"></a>
+		</header>
+	
+		<ul class="navbar">
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="AboutCiphers.html">About Ciphers</a></li>
+			<li class="dropdown">
+				<a class="dropbtn">Encrypt/Decrypt Message</a>
+				<div class="dropdown-content">
+					<a href="CipherRot13.html" >Rot13</a>
+					<a href="CaesarCipher.html">Ceasar</a>
+					<a href="#">Whatever</a>
+				</div>
+			<li> <a class="active" href="Contact.html">Contact</a></li>
+			</li>
+		</ul>
+	
+		<aside>
+			
+			<label for="fname">First Name:</label>
+			<br>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			<br>
+			<label for="lname">Last Name:</label>
+			<br>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			<br>
+			<label for="email">Email:</label>
+			<br>
+			<input type="text" id="email" name="email" placeholder="Your email..">
+			<br>
+			<label for="Reason">Reason for contact:</label>
+			<br>
+			<select id="reason" name="reason">
+				<option value="ROP">Report a problem</option>
+				<option value="Question">Question</option>
+				<option value="Other">Other</option>
+			</select>
+			<br>
+			<label for="subject">Subject:</label>
+			<br>
+			<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+			<br>
+			<button type="button" onClick="#" id="submit_button">Submit</button>
+
+		</aside>
+	
+		<footer>2018 - Website was created by Alexandros Anastasiou</footer>
+	</div>
+	</body>
+</html>
