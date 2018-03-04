@@ -22,17 +22,17 @@
 				<div class="dropdown-content">
 					<a href="CipherRot13.html" >Rot13 Cipher</a>
 					<a href="CaesarCipher.html">Caesar Cipher</a>
-					<a href="#">Whatever</a>
 				</div>
 			<li> <a href="Contact.html">Contact</a></li>
 				</li>
 		</ul>
-	
+		
 		<aside>
 			<strong>Input Text Area:</strong>
 			<br>
 			<strong>Number of letters to shift to the left(default is 3):</strong><input type="number" min="1"max="25" value="3" id="RotationNumber">
 			<br>
+			<a href="AboutCiphers.html" target="_blank"><img class="imageDescription" src="Caesar_cipher_left_shift_of3Description.png"></a>	
 			<textarea id="OriginalMessage" autofocus placeholder="Enter your text here to encipher or decipher..."></textarea><br>
 			<button type="button" onClick="encode()" id="encode_button">Encipher</button>
 			<button type="button" onClick="replacetext()" id="replace_button" class="arrow">&#x2191; Replace</button>

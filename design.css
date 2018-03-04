@@ -29,7 +29,7 @@ header, footer {
 .image1 {
 	width: 650px;
 	height: 230px;
-	margin-left:50px;
+	margin-left: 5em;
 	border: 2px solid #000000;
 }
 
@@ -42,17 +42,28 @@ header, footer {
 }
 
 .image2 {
+	float: right;
     width: 365px;
     height: 230px;
-	margin-left: 30em;
+	margin-left: 5em;
 	border: 2px solid #000000;
 }
 
 .image3 {
+	float: right;
     width: 365px;
     height: 360px;
-	margin-left: 30em;
+	margin-left: 5em;
 	border: 2px solid #000000;
+}
+
+.imageDescription {
+	float: right;
+    width: 700px;
+    height: 500px;
+	margin-left: 5em;
+	margin-right: 0.5em;
+	border: 1px solid #000000;
 }
 
 .navbar {
@@ -65,7 +76,7 @@ header, footer {
 	height: 59px;
 	border: 1px solid #000000;
 }
-.active{
+.active {
 background-color: #C0C0C0;
 }
 
@@ -117,7 +128,7 @@ li.dropdown {
 }
 
 aside {
-	height: 560px;
+	height: 600px;
 	background-color: #C0C0C0;
 	border: 0.5px solid #000000;
 	padding: 5px;
@@ -130,7 +141,7 @@ aside {
 }
 
 .AboutCiphersAside {
-	height: 1800px;
+	height: 1200px;
 	background-color: #C0C0C0;
 	border: 1px solid #000000;
 	padding: 5px;
@@ -172,20 +183,18 @@ h2{
 	width: 50em;
 	margin: 5px;
 }
+
 input[type=text], select, textarea {
-    width: 50%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #000000; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
 }
 
 #subject {
 	 height:130px;
 }
-
-
-

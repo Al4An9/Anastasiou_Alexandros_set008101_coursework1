@@ -1,19 +1,20 @@
 function decode()
 {
-	//get the number of letters you want to rotate 
+	//store the number of letters you want to rotate 
 	var input_number_rotation = parseInt(document.getElementById("RotationNumber").value);
 	//gets the value of the elements within OriginalMessage and stores them to input_text
 	var input_text = document.getElementById("OriginalMessage").value.toUpperCase();
 	//convert the input to uppercase
 	var upperCase_input = input_text.toUpperCase();
-	//empty array for the output
+	//create an empty array for the output
 	var output_ciphered_text = [];
-	
+	//all the characters of the alphabet
 	var alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
 	'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-	
+	//checks if the input area is empty
 	if(document.getElementById("OriginalMessage").value=="")
-	{
+	{	
+		//if it is alerts the user 
 		alert("Fill up the input text area to proceed!");
 	}
 	else
