@@ -38,7 +38,7 @@ header, footer {
     ms-transform: scale(1.2);
     transform: scale(1.2);
 	margin-left:10em;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }
 
 .image2 {
@@ -46,7 +46,7 @@ header, footer {
     width: 365px;
     height: 230px;
 	margin-left: 5em;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }
 
 .image3 {
@@ -54,7 +54,7 @@ header, footer {
     width: 365px;
     height: 360px;
 	margin-left: 5em;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 }
 
 .imageDescription {

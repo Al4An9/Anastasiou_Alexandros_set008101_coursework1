@@ -2,7 +2,7 @@ function decode()
 {
 	//store the number of letters you want to rotate 
 	var input_number_rotation = parseInt(document.getElementById("RotationNumber").value);
-	//gets the value of the elements within OriginalMessage and stores them to input_text
+	//gets the value of the elements within OriginalMessage converts them to uppercase and stores them to input_text
 	var input_text = document.getElementById("OriginalMessage").value.toUpperCase();
 	//convert the input to uppercase
 	var upperCase_input = input_text.toUpperCase();
